@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+button{
+    padding: 8px 16px;
+    border: none;
+    background: #05c7cf;
+    color: white;
+    font-size: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 72px;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.row{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#about,
+#discord,
+#contact,
+footer{
+    padding: 48px 0;
+}
+
+/* NAV */
+
+.logo__img{
+    width: 300px;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background: #cafdff;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding: 0 16px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    height: calc(100vh - 70px);
+    background: #eadcff;
+}
+
+.sub__header{
+    font-size: 32px;
+    margin: 16px 0 24px 0;
+}
+
+/* ABOUT */
+
+#about{
+    background: #f8ffdc;
+}
+
+.section__description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__img--wrapper{
+    width: 40%;
+}
+
+img{
+    width: 100%;
+}
+
+.section__description--wrapper{
+    width: 60%;
+   
+}
+
+.section__description--wrapper,
+.about__img--wrapper{
+    padding: 0 24px;
+}
+
+.section__description--para{
+    font-size: 20px;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+/* DISCORD */
+
+#discord{
+    background: #cefeff;
+}
+
+
+/* CONTACT */
+
+#contact{
+    background: #dce9ff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+input,
+textarea{
+    font-size: 20px;
+    margin-bottom: 24px;
+    outline: none;
+    padding: 6px 12px;
+    resize: none;
+}
+
+/* FOOTER */
+
+footer{
+    align-items: center;
+    background: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+}
+
+.footer__logo{
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer__links{
+    margin-bottom: 32px;
+}
+
+.footer__link{
+    margin: 0 16px;
+}
